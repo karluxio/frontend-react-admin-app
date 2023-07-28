@@ -6,7 +6,7 @@ import {
 } from "@/scenes";
 
 import { Box } from "@mui/material";
-import HomeOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 
 import React, { useContext } from "react";
 
