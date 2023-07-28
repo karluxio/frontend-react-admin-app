@@ -1,3 +1,10 @@
 export * from "./dashboard";
-export * from "./global/Sidebar";
 export * from "./global/Topbar";
+export { default as Sidebar } from "./global/sidebar/Sidebar";
+export * from "./global/sidebar/components/SidebarGroupItems";
+export * from "./global/sidebar/components/SidebarGroups";
+export * from "./global/sidebar/components/SidebarHeader";
+export * from "./global/sidebar/components/SidebarItem";
+export * from "./global/sidebar/context/SidebarContext";
+export * from "./global/sidebar/context/SidebarProvider";
+export * from "./global/sidebar/sidebarData";
