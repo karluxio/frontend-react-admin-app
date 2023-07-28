@@ -4,6 +4,7 @@ export { default as Sidebar } from "./global/sidebar/Sidebar";
 export * from "./global/sidebar/components/SidebarGroupItems";
 export * from "./global/sidebar/components/SidebarGroups";
 export * from "./global/sidebar/components/SidebarHeader";
+export * from "./global/sidebar/components/SidebarHeaderTitle";
 export * from "./global/sidebar/components/SidebarItem";
 export * from "./global/sidebar/context/SidebarContext";
 export * from "./global/sidebar/context/SidebarProvider";
