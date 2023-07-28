@@ -13,11 +13,6 @@ export const SidebarProvider = ({ children }) => {
     "& .pro-sidebar-inner": {
       background: `${colors.primary[400]} !important`,
     },
-    "& .pro-sidebar .pro-menu": {
-      padding: "0 !important",
-      margin: "0 !important",
-      height: "100%",
-    },
     "& .pro-icon-wrapper": {
       backgroundColor: "transparent !important",
     },
@@ -31,7 +26,6 @@ export const SidebarProvider = ({ children }) => {
       color: "#6870fa !important",
     },
   };
-
   return (
     <SidebarContext.Provider
       value={{

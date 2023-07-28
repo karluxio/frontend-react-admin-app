@@ -12,7 +12,7 @@ const Sidebar = () => {
   const { isCollapsed, proSidebarCustomStyles } = useContext(SidebarContext);
 
   return (
-    <Box height={"100%"} sx={proSidebarCustomStyles}>
+    <Box sx={proSidebarCustomStyles}>
       <ProSidebar collapsed={isCollapsed}>
         <Menu iconShape="square">
           <SidebarHeader />
