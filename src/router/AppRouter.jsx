@@ -1,4 +1,4 @@
-import { Dashboard, Team } from "@/scenes";
+import { Contacts, Dashboard, Team } from "@/scenes";
 import { Navigate, Route, Routes } from "react-router-dom";
 
 export const AppRouter = () => {
@@ -6,7 +6,7 @@ export const AppRouter = () => {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/team" element={<Team />} />
-      <Route path="/contact" element={<h2>contact</h2>} />
+      <Route path="/contact" element={<Contacts />} />
       <Route path="/invoices" element={<h2>invoices</h2>} />
       <Route path="/form" element={<h2>form</h2>} />
       <Route path="/bar" element={<h2>bar</h2>} />

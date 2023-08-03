@@ -1,7 +1,7 @@
 import { Header } from "@/components";
 import { mockDataTeam } from "@/data";
 import { tokens } from "@/theme";
-import { useTheme } from "@emotion/react";
+import { useTheme } from "@mui/material";
 import { Box, Typography } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";

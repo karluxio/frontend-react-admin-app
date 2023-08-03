@@ -1,3 +1,4 @@
+export * from "./contacts";
 export * from "./dashboard";
 export * from "./global/Topbar";
 export { default as Sidebar } from "./global/sidebar/Sidebar";
