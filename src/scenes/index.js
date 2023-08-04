@@ -1,6 +1,7 @@
 export * from './calendar'
 export * from './contacts'
 export * from './dashboard'
+export * from './faq'
 export * from './form'
 export * from './global/Topbar'
 export { default as Sidebar } from './global/sidebar/Sidebar'
