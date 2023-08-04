@@ -1,10 +1,12 @@
 import {
+  Bar,
   Calendar,
   Contacts,
   Dashboard,
   FAQ,
   Form,
   Invoices,
+  Pie,
   Team
 } from '@/scenes'
 import { Navigate, Route, Routes } from 'react-router-dom'
@@ -19,8 +21,8 @@ export const AppRouter = () => {
       <Route path='/form' element={<Form />} />
       <Route path='/calendar' element={<Calendar />} />
       <Route path='/faq' element={<FAQ />} />
-      <Route path='/bar' element={<h2>bar</h2>} />
-      <Route path='/pie' element={<h2>pie</h2>} />
+      <Route path='/bar' element={<Bar />} />
+      <Route path='/pie' element={<Pie />} />
       <Route path='/line' element={<h2>line</h2>} />
       <Route path='/geography' element={<h2>geography</h2>} />
 

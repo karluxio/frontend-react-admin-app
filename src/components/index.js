@@ -1,1 +1,3 @@
-export * from "./Header";
+export * from './BarChart'
+export * from './Header'
+export * from './PieChart'
