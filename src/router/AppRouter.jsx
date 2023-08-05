@@ -5,6 +5,7 @@ import {
   Dashboard,
   FAQ,
   Form,
+  Geography,
   Invoices,
   Line,
   Pie,
@@ -25,7 +26,7 @@ export const AppRouter = () => {
       <Route path='/bar' element={<Bar />} />
       <Route path='/pie' element={<Pie />} />
       <Route path='/line' element={<Line />} />
-      <Route path='/geography' element={<h2>geography</h2>} />
+      <Route path='/geography' element={<Geography />} />
 
       <Route path='*' element={<Navigate to='/' />} />
     </Routes>
